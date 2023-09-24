@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EC-WebStudio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/617ea08f08.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kumbh+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">EC WebStudio</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">
+                        Start
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="paket.html" class="navbar__links">
+                        Paket
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="team.html" class="navbar__links">
+                        Team
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="kontakt.html" class="navbar__links">
+                        Kontakt
+                    </a>
+                </li>
+           
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    
+
+
+            <div class="main__content--paket">
+                <h2>Avancerad Paket</h2>
+            </div>
+            <div class="main__submit--paket">
+                <form id="websiteForm" action="submit_form.php" method="post">
+                    <label for="name">Namn:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="number">Tel. nummer:</label>
+                    <input type="text" id="number" name="number" required>
+                    <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="description">Beskriv vad du vill ha (T.ex färgschema):</label>
+            <textarea id="description" name="description" required></textarea>
+            <br>
+            <button type="submit">Skicka in</button>
+            
+            
+            </div>
+            
+            
+            
+            
+            <div class="main__info--paket">
+            <div class="options">
+            <h2>Website Packages</h2>
+            <label>
+            <input type="checkbox" name="responsive" value="500">
+            Responsive Design (+500kr)
+            </label>
+            <br>
+            <label>
+                <select name="JS_Funktioner" id="selectedOption">
+                    <option value="0">1</option>
+                    <option value="149">2</option> 
+                    <option value="299">3</option> 
+                    <option value="449">4</option> 
+                    <option value="599">5</option>
+                </select>
+                Extra JSfunktioner (149kr - 599kr. OBS 1 är gratis!) 
+                <p id="selectedOptionText"></p>    
+            </label>
+            <br>
+            <label>
+                <select name="PHP_Funktioner" id="selectedOption1">
+                    <option value="0">1</option>
+                    <option value="149">2</option> 
+                    <option value="299">3</option> 
+                    <option value="449">4</option> 
+                    <option value="599">5</option>
+                </select>
+                Extra PHPfunktioner (149kr - 599kr. OBS 1 är gratis!) 
+                <p id="selectedOption1Text"></p>    
+            </label>
+            <br>
+            <label>
+            <input type="checkbox" name="cms" value="350">
+            Lägg ut din hemsida på vår server (+350kr / mån)
+            </label>
+            </div>
+            <div class="price">
+            <h3>Totalpris:</h3>
+            <p id="totalPrice">5990kr</p>
+            </div>
+            </div>
+            
+            </form>
+                
+                
+<div class="main__back--btn">
+    <a href="avancerad.html">Klicka här för att komma tillbaka!</a>
+</div>
+
+
+    
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                   
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">EC-WebStudio</i></a>
+                </div>
+                <p class="website__rights">© EC WebStudio 2023. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/ye.webstudio/" class="social__icon--link">
+                    <i class="fab fa-instagram"></i>
+                </a>          
+                <a href="/" class="social__icon--link">
+                    <i class="fab fa-twitter"></i>
+                </a>          
+                <a href="/" class="social__icon--link">
+                    <i class="fab fa-tiktok"></i>
+                </a>          
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app2.js"></script>
+</body>
+</html>
