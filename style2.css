@@ -1,0 +1,504 @@
+/* Styles that only affect elements within .login__page */
+.login__page {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login__page .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 370px;
+    height: 370px;
+    text-align: center;
+}
+
+.login__page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__page input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.login__page h2 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 1.7rem;
+}
+
+.login__page button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login__page button:hover {
+    background-color: #0056b3;
+}
+
+.login__page .links {
+    margin-top: 40px;
+    padding: none;
+}
+
+.login__page .links a {
+    display: block;
+    margin-right: 20px; /* Add spacing between the links */
+    color: #007bff;
+    text-decoration: none;
+    justify-content: left;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.login__page .links a:hover {
+    text-decoration: underline;
+}
+
+/* Styles that only affect elements within .register__page */
+.register__page {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.register__page .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 370px;
+    height: 370px;
+    text-align: center;
+}
+
+.register__page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__page input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.register__page h2 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 1.7rem;
+}
+
+.register__page button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register__page button:hover {
+    background-color: #0056b3;
+}
+
+.register__page .links {
+    margin-top: 40px;
+    padding: none;
+}
+
+.register__page .links a {
+    display: block;
+    margin-right: 20px; /* Add spacing between the links */
+    color: #007bff;
+    text-decoration: none;
+    justify-content: left;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.register__page .links a:hover {
+    text-decoration: underline;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    width: 600px;
+    height: 335px;
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: #fff;
+  }
+  
+  .menu-item h1 {
+    color: #fff;
+}
+  
+  .menu-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 10px;
+}
+  
+  .menu-item span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .main__info h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;    
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 50px;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.main__info p {
+    color: #fff;
+    position: relative;
+    left: 50px;
+    margin-bottom: 15px;
+}
+
+.main__info {
+    max-width: 600px;
+}
+
+.navbar__container a img {
+    width: 20%; /* Reduce the width to make it 50% smaller */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.navbar__logo {
+    margin-right: -630px; /* Adjust the right margin */
+    margin-left: -80px; /* Adjust the left margin */
+
+}
+
+
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    .navbar__menu.active {
+        top: 80px;
+    }
+    
+    .navbar__links {
+        padding: 1rem;
+        width: 100%;
+        display: block;
+    }
+    
+    /* Hero Section */
+    .main__content {
+        margin-bottom: 2rem;
+    }
+    
+    .main__content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .main__content h2 {
+        font-size: 2.5rem;
+    }
+    
+    /* Other Sections */
+    .main__info, .main__submit--paket, .main__obs--paket {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin: 1rem;
+    }
+    
+    .options, .price {
+        padding: 10px;
+    }
+}
+
+.main__paket--button {
+    color: #fff;
+    position: fixed;
+    right: 10px;
+}
+
+.main__paket--button {
+    position: absolute;
+    top: 41%;
+    right: 400px; /* Adjust this value as needed */
+    transform: translateY(-50%);
+    
+}
+
+.main__paket--button p{
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;   
+}
+
+/* style.css */
+
+/* Apply underline effect only on hover */
+.main__back--btn a {
+    text-decoration: none;
+    color: #fff; /* Set text color to #fff */
+    font-size: 1.1rem;
+}
+
+.main__back--btn a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Position the button under the total price */
+.main__back--btn {
+    position: absolute;
+    top: 570px;
+    left: 460px;
+}
+
+/* Apply underline effect only on hover */
+.main__back--btn2 a {
+    text-decoration: none;
+    color: #fff; /* Set text color to #fff */
+    font-size: 1.1rem;
+}
+
+.main__back--btn2 a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Position the button under the total price */
+.main__back--btn2 {
+    position: absolute;
+    top: 470px;
+    left: 711px;
+}
+
+/* Existing CSS code */
+
+/* Add a new media query for mobile devices */
+@media screen and (max-width: 800px) {
+    .main__submit--paket {
+        position: static;
+    }
+    
+    .main__info--paket {
+        position: static;
+        margin-top: 50px;
+    }
+    
+    .options {
+        text-align: center;
+    }
+    
+    .price {
+        text-align: center;
+    }
+    
+    /* You can also adjust other styles as needed for mobile layout */
+}
+
+/* Existing CSS code */
+
+/* Add a new media query for mobile devices */
+@media screen and (max-width: 800px) {
+    .main__info {
+        position: static;
+    }
+    
+    .main__paket--button {
+        position: static;
+        margin-top: 100px;
+        margin-left: 65px;
+    }
+    
+ 
+    
+    /* You can also adjust other styles as needed for mobile layout */
+}
+
+.main__info--team {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    left: 550px;
+    padding-right: 50px;
+    color: #fff;
+}
+
+.team0 {
+    position: absolute;
+    font-size: 1.2rem;
+    bottom: 700px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.team1 {
+    position: absolute;
+    font-size: 1.2rem;
+    bottom: 700px;
+    left: 285px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;  
+}
+
+.team2 {
+    position: absolute;
+    bottom: 600px;
+}
+
+.team3 {
+    position: absolute;
+    bottom: 500px;
+}
+.team4 {
+    position: absolute;
+    bottom: 400px;
+}
+.team5 {
+    position: absolute;
+    bottom: 300px;
+}
+
+.team6 {
+    margin-bottom: 70px;
+}
+
+.team7 {
+    margin-bottom: 30px;
+}
+
+.team8 {
+    margin-bottom: 10px;
+}
+
+.team9 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;  
+    margin-bottom: 10px;
+}
+
+.team10 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.main__login--form {
+    margin-top: 20px; /* Add space above the form */
+    padding: 20px; /* Add padding to the form container */
+    max-width: 300px; /* Set a maximum width for the form */
+    margin-left: auto; /* Center the form horizontally */
+    margin-right: auto;
+}
+
+/* Style for input fields */
+.main__login--form input[type="text"],
+.main__login--form input[type="password"] {
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Add space between input fields */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style for the submit button */
+.main__login--form button[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Style for the submit button on hover */
+.main__login--form button[type="submit"]:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}

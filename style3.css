@@ -1,0 +1,136 @@
+/* Style for the parent navbar__item */
+#user-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  /* Style for the dropdown menu container */
+  #user-dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff; /* Background color of the dropdown */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow */
+    z-index: 1; /* Ensure the dropdown appears above other elements */
+  }
+  
+  /* Style for the dropdown menu items */
+  #user-dropdown .dropdown-menu li {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Optional: Add a border between items */
+  }
+  
+  /* Style for the dropdown menu links */
+  #user-dropdown .dropdown-menu li a {
+    color: #333; /* Link color */
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change link color on hover */
+  #user-dropdown .dropdown-menu li a:hover {
+    background-color: #f2f2f2; /* Background color on hover */
+    color: #007bff; /* Link color on hover */
+  }
+  
+  /* Show the dropdown when hovering over the parent */
+  #user-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .main__login--form {
+    position: relative;
+    top: 250px;
+    margin-top: 20px; /* Add space above the form */
+    padding: 20px; /* Add padding to the form container */
+    max-width: 300px; /* Set a maximum width for the form */
+    margin-left: auto; /* Center the form horizontally */
+    margin-right: auto;
+}
+
+/* Style for input fields */
+.main__login--form input[type="text"],
+.main__login--form input[type="password"],
+.main__login--form input[type="email"] {
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Add space between input fields */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style for the submit button */
+.main__login--form button[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Style for the submit button on hover */
+.main__login--form button[type="submit"]:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+.login__btn {
+  font-size: 1rem;
+  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  padding: 14px 32px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.login__btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.login__btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #4837ff;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.login__btn:hover {
+  color: #fff;
+}
+
+.login__btn:hover:after {
+  width: 100%;
+}
+
+.main__login--h1 {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+.register__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.register__link:hover {
+  text-decoration: underline;
+}
+
